@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--sap-shell-bg: #f5f7fa;
+}
+
+html, body, #__next {
+	height: 100%;
+}
+
+.sap-button {
+	@apply inline-flex items-center justify-center rounded-md bg-primary px-3 py-2 text-sm font-medium text-white hover:bg-primary-dark;
+}
+
