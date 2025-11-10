@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES2020",
+		"lib": ["DOM", "ES2020"],
+		"jsx": "preserve",
+		"module": "ESNext",
+		"moduleResolution": "Bundler",
+		"resolveJsonModule": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./*"]
+		},
+		"strict": true,
+		"noEmit": true,
+		"incremental": true,
+		"types": ["node"]
+	}
+}
+
